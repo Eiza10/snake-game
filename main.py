@@ -8,6 +8,7 @@ screen = pygame.display.set_mode([square_width] * 2)
 clock = pygame.time.Clock()
 running = True
 
+print("Kaixo nere izena Haritz da eta probak noi etxen")
 
 def generate_starting_position():
     position_range = (pixel_width // 2, square_width - pixel_width // 2, pixel_width)
